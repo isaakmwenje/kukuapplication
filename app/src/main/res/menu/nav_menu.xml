@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeV"
+          android:title="Home"></item>
+    <item android:id="@+id/batch"
+          android:title="Batch Management"></item>
+
+    <item android:id="@+id/rooms"
+          android:title="Rooms"></item>
+    <item android:id="@+id/vaccination"
+          android:title="Vaccinations"></item>
+    <item android:id="@+id/sales"
+          android:title="Sales/Market"></item>
+    <item android:id="@+id/finance"
+          android:title="Finance"></item>
+    <item android:id="@+id/report"
+          android:title="Reports"></item>
+    <item android:id="@+id/tips"
+          android:title="Rearing Tips"></item>
+    <item android:id="@+id/logout"
+          android:title="Log Out"></item>
+
+
+</menu>

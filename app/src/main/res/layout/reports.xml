@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <RelativeLayout android:layout_height="match_parent" android:background="@color/Red" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_below="@+id/button1" android:layout_alignParentLeft="true" android:id="@+id/listView1"> </ListView>
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1" android:src="@drawable/ic_launcher_background" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"/>
+
+
+    -<EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/imageView1" android:layout_alignParentLeft="true" android:id="@+id/editText1" android:ems="10" android:layout_marginTop="16dp" android:layout_alignParentRight="true">
+
+    <requestFocus/>
+
+</EditText>
+
+    <Button android:layout_height="wrap_content" android:layout_width="150sp" android:layout_below="@+id/editText1" android:id="@+id/button1" android:layout_marginTop="24dp" android:layout_alignParentRight="true" android:text="Search"/>
+
+</RelativeLayout>

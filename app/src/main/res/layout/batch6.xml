@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:id="@+id/edTbatchNumber" android:hint="enter batch number" android:layout_marginTop="30dp"/>
+    <EditText
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edTbatchOrigin"
+            android:layout_alignParentStart="true" android:hint="enter batch origin"
+            android:layout_alignParentTop="true" android:layout_marginTop="181dp"/>
+    <EditText
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignParentStart="true"
+            android:id="@+id/edTbatchTotal" android:hint="enter total number"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="224dp"/>
+    <EditText
+            android:layout_width="326dp"
+            android:layout_height="36dp"
+            android:inputType="date"
+            android:ems="10"
+            android:layout_alignParentStart="true" android:id="@+id/editStartDate"
+            android:hint="enter entry date" android:layout_alignParentTop="true" android:layout_marginTop="81dp"/>
+    <EditText
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:layout_alignParentStart="true"
+            android:id="@+id/edtEndDate" android:hint="expected release date"
+            android:layout_alignParentTop="true" android:layout_marginTop="123dp"/>
+    <EditText
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:layout_alignParentStart="true"
+            android:id="@+id/edTbodyWeight"
+            android:hint="enter average body weight(in kg)" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="169dp"/>
+    <EditText
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="116dp" android:id="@+id/edTroomNumber" android:hint="enter room number"/>
+    <TextView
+            android:text="Batch Details"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp" android:layout_alignParentTop="true" android:id="@+id/textView8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+    <EditText
+            android:layout_width="321dp"
+            android:layout_height="15dp"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:layout_alignParentStart="true" android:layout_below="@+id/edTroomNumber"
+            android:layout_marginTop="-116dp" android:id="@+id/edTiD" android:visibility="invisible"/>
+    <Button
+            android:text="Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp" android:layout_alignParentStart="true"
+            android:layout_below="@+id/edTiD" android:id="@+id/buttonReset"/>
+    <Button
+            android:text="ADD"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="105dp" android:layout_below="@+id/edTiD" android:id="@+id/buttonADD"/>
+    <Button
+            android:text="UPDATE"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp" android:layout_alignParentEnd="true" android:layout_marginEnd="89dp"
+            android:id="@+id/buttonUpdatee" android:layout_below="@+id/edTiD"/>
+    <Button
+            android:text="VIEW ALL"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp" android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true" android:id="@+id/buttonviewAll" android:layout_marginBottom="10dp"/>
+    <Button
+            android:text="DELETE"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:id="@+id/buttonDelete" android:layout_alignStart="@+id/buttonADD"
+            android:layout_alignTop="@+id/buttonviewAll"/>
+    <Button
+            android:text="HOME"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:id="@+id/buttonHome"
+            android:layout_alignTop="@+id/buttonviewAll" android:layout_alignStart="@+id/buttonUpdatee"/>
+
+
+</RelativeLayout>
